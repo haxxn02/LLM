@@ -11,4 +11,5 @@ search = driver.find_element('name', 'q')
 search.send_keys('날씨')
 search.send_keys(Keys.RETURN) #=> Enter키까지 입력
 
+
 time.sleep(10)
